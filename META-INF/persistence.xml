@@ -4,5 +4,13 @@
     <persistence-unit name="persistenceUnit">
         <class>com.spring.boot.example.user.model.Users</class>
         <class>com.spring.boot.example.user.model.UsersAuth</class>
+        <class>com.spring.boot.example.user.model.UsersEntity</class>
+        <class>com.spring.boot.example.user.model.UsersAuthEntity</class>
+        <properties>
+            <property name="toplink.jdbc.url" value="jdbc:mysql://localhost:3306/bangae1"/>
+            <property name="toplink.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="toplink.jdbc.user"/>
+            <property name="toplink.jdbc.password"/>
+        </properties>
     </persistence-unit>
 </persistence>
