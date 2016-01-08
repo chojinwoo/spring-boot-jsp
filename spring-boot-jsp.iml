@@ -3,9 +3,7 @@
   <component name="FacetManager">
     <facet type="Spring" name="Spring">
       <configuration>
-        <fileset id="fileset" name="Spring Application Context" removed="false">
-          <file>file://$MODULE_DIR$/src/main/java/com/spring/boot/example/config/SecurityConfig.java</file>
-        </fileset>
+        <fileset id="fileset" name="Spring Application Context" removed="false" />
       </configuration>
     </facet>
     <facet type="jpa" name="JPA">
